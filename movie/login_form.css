@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(28, 5, 83, 0.499);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: black;
+
+
+}
+
+#navbar ul {
+    display: flex;
+
+    margin-right: 22px;
+}
+
+li {
+    list-style: none;
+    margin: 10px 15px 10px 15px;
+}
+
+button {
+    background-color: rgb(250, 0, 0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+button:hover {
+
+    cursor: pointer;
+    transform: scale(108%);
+}
+
+.img img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img {
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.img p {
+    text-align: center;
+    font-size: 40px;
+}
+
+.b1 {
+    display: flex;
+    padding-top: 55px;
+    justify-content: space-evenly;
+    padding-bottom: 55px;
+
+}
+
+.poster {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-top: -20px;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid rgba(28, 5, 83, 0.499);
+
+}
+
+#p1 {
+    background-image: url('21.jpg');
+}
+
+#p2 {
+    background-image: url('26.jpg');
+}
+
+#p3 {
+    background-image: url('22.jpg');
+}
+
+#p4 {
+    background-image: url('23.jpg');
+}
+
+#p5 {
+    background-image: url('24.jpg');
+}
+
+#p6 {
+    background-image: url('25.jpg');
+}
+
+.poster:hover {
+    translate: (-153.5rem, -3.5rem);
+    transform: scale(103%);
+    cursor: pointer;
+    box-shadow: 3px 6px 15px 0px rgb(167, 68, 167);
+}
+
+#form {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100vh;
+}
+
+#form h3 {
+    font-size: 60px;
+    margin-top: 25px;
+    color: rgb(54, 8, 54);
+}
+
+.data {
+    margin-top: 15rem;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.data {
+    margin-top: 50;
+    display: flex;
+}
+
+.data input {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px solid red;
+    background-color: transparent;
+    color: rgb(0, 0, 46);
+    width: 100%;
+    font-size: 24px;
+    width: 25%;
+    width: 100%;
+    border-color: rgb(54, 8, 54);
+    margin-bottom: 50px;
+    outline: none;
+}
+
+.data form {
+    width: 40%;
+}
+
+#btn {
+    background-color: rgba(255, 0, 0, 0);
+    width: 120px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+#btn:hover {
+    background-color: rgb(0, 0, 46);
+    color: aliceblue;
+}
+
+#uname::placeholder {
+    font-size: 20px;
+    background-image: url('person-fill.svg');
+    background-size: 25px;
+    color: rgb(0, 0, 46);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 25px;
+
+}
+
+#paswd::placeholder {
+    font-size: 20px;
+    background: url('pass-fill.svg');
+    color: rgb(0, 0, 46);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding-left: 25px;
+
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    justify-content: center;
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+
+}
+
+#img img {
+    width: 40px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+img {
+    fill: cyan;
+}
+
+svg {
+    fill: rgb(54, 8, 54);
+    padding: 15px;
+}
+
+svg:hover {
+    transform: scale(105%);
+    fill: aliceblue;
+}

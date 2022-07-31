@@ -1,0 +1,392 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:
+        #d6ffe8;
+}
+
+#navbar {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+    background-color: #00000070;
+
+}
+
+#navbar ul {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: azure;
+}
+
+#navbar ul :hover {
+    transform: scale(109%);
+    color: greenyellow;
+}
+
+#search {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+
+}
+
+input {
+    background-image: url('');
+    border: none;
+
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 200px;
+
+    height: 25px;
+    margin-right: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+}
+
+
+svg {
+    padding: 5px;
+    fill: rgb(2, 59, 109);
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: aliceblue;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+
+#Home {
+    display: flex;
+    background-image: url('bg02.jpg');
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#greet {
+
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+#greet h2 {
+    margin-top: 7rem;
+    color: #170101;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+
+
+#info {
+    margin-top: 5rem;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    color: rgb(85, 222, 222);
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#login {
+    font-size: 40px;
+
+}
+
+#lg_btn {
+
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(13, 32, 68);
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 5rem;
+    border: none;
+    padding: 5px;
+}
+
+#lg_btn:hover {
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+#lg_btn a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+#movies {
+
+}
+
+#b1 {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+
+.M_name {
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 5px solid rgb(7, 27, 74);
+
+}
+
+.M_name:hover {
+    transform: scale(105%);
+}
+
+.M_name .msg {
+    width: 340px;
+    height: 50px;
+    font-size: 35px;
+    padding: 5px;
+    visibility: hidden;
+    background-color: #eeeeee6b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.M_name:hover .msg {
+    cursor: pointer;
+    visibility: visible;
+}
+
+#movies p {
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, 2px 2px 2px rgba(206, 89, 55, 0);
+    margin-bottom: -30px;
+}
+
+.m_info {
+    background-color: black;
+    width: 350px;
+    z-index: 1;
+    padding-top: 10px;
+    font-size: 19px;
+    height: 84px;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 300px;
+    margin-bottom: 60px;
+    color: aliceblue;
+}
+
+.m_info p {
+    margin-top: 2px;
+}
+
+.m_info h3 {
+    margin-top: 5px;
+    color: rgb(255, 217, 0);
+}
+
+#pic1 {
+    background-image: url('1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic2 {
+    background-image: url('2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#pic3 {
+    background-image: url('3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic4 {
+    background-image: url('4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic5 {
+    background-image: url('5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic6 {
+    background-image: url('6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic7 {
+    background-image: url('7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic8 {
+    background-image: url('8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic9 {
+    background-image: url('9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic10 {
+    background-image: url('10.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic11 {
+    background-image: url('11.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic12 {
+    background-image: url('12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#packages {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#head {
+
+    font-size: 80px;
+    text-align: center;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, 2px 2px 2px rgba(206, 89, 55, 0);
+    margin: 20px;
+}
+
+#pack {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p1 {
+    width: 500px;
+    height: 400px;
+    color: #EEEEEE;
+    border-radius: 25px;
+    background-color: #000000;
+
+}
+
+.p1 #p_name {
+    font-size: 30px;
+    color: #000000;
+    margin: 20px;
+    visibility: hidden;
+    margin-left: 0px;
+    border-bottom-right-radius: 50px;
+    height: 50px;
+    background-color: #eaff00;
+    text-align: left;
+
+
+}
+
+.p1:hover #p_name {
+    cursor: pointer;
+    visibility: visible;
+}
+
+span {
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(0, 255, 26);
+    justify-content: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 35px;
+}
+
+#copy {
+    font-size: 25px;
+    text-align: center;
+}
